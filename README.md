@@ -1,6 +1,7 @@
-GENERATIVE-METHODS-IN-GENOMICS
+**GENERATIVE-METHODS-IN-GENOMICS**
 
 **0. Abstract**
+
 This thesis presents an innovative approach for synthesizing FASTQ files using Generative Adversarial Networks (GANs), aiming to create realistic and diverse genomic datasets. The methodology comprises several integral components including data mining, organization, loading, GAN architecture design (FASTQ GAN), and variant generation, forming a novel pipeline for synthetic genomic data generation.
 
 **1. Data Miner**
