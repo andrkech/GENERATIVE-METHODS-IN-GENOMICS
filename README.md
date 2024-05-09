@@ -1,15 +1,36 @@
 GENERATIVE-METHODS-IN-GENOMICS
 
-Abstract:
-The thesis aims to develop a novel approach for generating synthetic FASTQ files leveraging Generative Adversarial Networks (GANs). The process involves several key components, including data mining, organization, loading, GAN architecture design (FASTQ GAN), and variant generation. The integration of these components forms a comprehensive pipeline for the generation of realistic and diverse synthetic genomic data.
+**0. Abstract**
+This thesis presents an innovative approach for synthesizing FASTQ files using Generative Adversarial Networks (GANs), aiming to create realistic and diverse genomic datasets. The methodology comprises several integral components including data mining, organization, loading, GAN architecture design (FASTQ GAN), and variant generation, forming a novel pipeline for synthetic genomic data generation.
 
-Data Miner: The Data Miner component is responsible for collecting Fastq files in order to build the dataset needed to train the GAN model. In the cases used, it takes an XML file from ENA as input and extracts the FASTQ files contained in one or more experiments, allowing for variance in the dataset.
+**1. Data Miner**
+
+The Data Miner module focuses on gathering FASTQ files essential for training the GAN model. It accepts an XML file from the European Nucleotide Archive (ENA) as input and extracts FASTQ files from one or multiple experiments, ensuring dataset diversity.
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lTVYho1DjXxlDX304Kd6xIDXjlq4s_lu)
 
-Organizer: Once the Fastq files are collected, the Organizer component categorizes and organizes them based on metadata information such as sample identifiers, experimental conditions, or sequence characteristics. This ensures efficient management and retrieval of data during subsequent analysis steps.
+**2. Dataset Organizer**
 
-Data Loader: The Data Loader component reads and preprocesses the Fastq files, extracting important sequence information such as read length, quality scores, and nucleotide composition. It prepares the data for downstream analysis tasks, including machine learning and variant calling.
+The Dataset Organizer categorizes and structures collected FASTQ files based on metadata information. This component paves the way for handling unevenly distributed data, such as sequences with varying lengths, offering scalability and adaptability.
 
-Generative Adversarial Network (GAN): The GAN component employs deep learning techniques to generate synthetic DNA sequences that mimic the characteristics of real Fastq files. By learning from the patterns and distributions present in the training data, the GAN can produce realistic synthetic sequences for augmenting datasets or testing algorithms.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
 
-Variant Generator: The Variant Generator component introduces genetic variations into existing DNA sequences to simulate mutagenesis or evolutionary processes. It can generate single nucleotide polymorphisms (SNPs), insertions, deletions, or other types of mutations based on user-defined parameters.
+**3. Data Loader**
+
+Responsible for preprocessing, the Data Loader formats and prepares the dataset to suit the input requirements of the GAN model, ensuring seamless integration into the training pipeline.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aFsMNGM69FfGGLU0lyLsa6G3YTgu0Alj)
+
+**4. Generative Adversarial Network (GAN)**
+
+The GAN architecture, known as FASTQ GAN, is specifically designed to generate synthetic DNA sequences paired with quality scores, mirroring the characteristics of authentic FASTQ files.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
+
+**5. Variant Generator**
+
+The Variant Generator component enriches the synthetic data generation process by allowing users to define genetic variations such as single nucleotide polymorphisms (SNPs), insertions, and deletions.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
+
+By integrating these modules, this thesis aims to contribute to advancing generative methods in genomics via deep learning implementation, offering a novel framework for generating synthetic genomic data crucial for various bioinformatics and genomics applications.
