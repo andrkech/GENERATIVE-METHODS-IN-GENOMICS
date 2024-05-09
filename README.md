@@ -4,7 +4,7 @@ Abstract:
 The thesis aims to develop a novel approach for generating synthetic FASTQ files leveraging Generative Adversarial Networks (GANs). The process involves several key components, including data mining, organization, loading, GAN architecture design (FASTQ GAN), and variant generation. The integration of these components forms a comprehensive pipeline for the generation of realistic and diverse synthetic genomic data.
 
 Data Miner: The Data Miner component is responsible for collecting Fastq files in order to build the dataset needed to train the GAN model. In the cases used, it takes an XML file from ENA as input and extracts the FASTQ files contained in one or more experiments, allowing for variance in the dataset.
-[![Open in Colab]([https://colab.research.google.com/drive/1lTVYho1DjXxlDX304Kd6xIDXjlq4s_lu](https://colab.research.google.com/assets/colab-badge.svg))](https://colab.research.google.com/drive/1lTVYho1DjXxlDX304Kd6xIDXjlq4s_lu)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lTVYho1DjXxlDX304Kd6xIDXjlq4s_lu)
 
 Organizer: Once the Fastq files are collected, the Organizer component categorizes and organizes them based on metadata information such as sample identifiers, experimental conditions, or sequence characteristics. This ensures efficient management and retrieval of data during subsequent analysis steps.
 
