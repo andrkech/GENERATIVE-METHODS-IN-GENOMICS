@@ -35,9 +35,9 @@ Responsible for preprocessing, the Data Loader formats and prepares the dataset 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aFsMNGM69FfGGLU0lyLsa6G3YTgu0Alj)
 
-4.Generative Adversarial Network (GAN
+4.PHRED_GAN
 
-The GAN architecture, known as FASTQ GAN, is specifically designed to generate synthetic DNA sequences paired with quality scores, mirroring the characteristics of authentic FASTQ files.
+The GAN architecture is specifically designed to generate synthetic quality scores, mirroring the characteristics of PHRED scores of authentic FASTQ files.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
 
@@ -45,8 +45,7 @@ The GAN architecture, known as FASTQ GAN, is specifically designed to generate s
 
 The Variant Reads Generator component enriches the synthetic data generation process by allowing users to define genetic variations such as SNPs, insertions, and deletions.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
 
 By integrating these modules, this thesis aims to contribute to advancing generative methods in genomics via deep learning implementation, offering a novel framework for generating synthetic genomic data crucial for various bioinformatics and genomics applications.
 
