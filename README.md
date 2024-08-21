@@ -11,47 +11,36 @@ This dissertation aims to serve as a stepping stone for further exploration and 
 **Framework**
 
 The overall framework of the complete algorithm is illustrated below:
+
 ![image](https://github.com/user-attachments/assets/ce45287a-fe6e-48ce-b702-94f9f615421f)
 
 **Scripts Overview**
 
 Following is an overview of the scripts. Note that whle access has been provided for the directories used, they need to be adjusted for other users, as the files should be located to the "Shared with me" folder in Google Drive.
 
-1.FASTQ_Data_Miner
+1.FASTQ_Data_Miner [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lTVYho1DjXxlDX304Kd6xIDXjlq4s_lu?usp=sharing)
 
 The Data Miner module gathers FASTQ files from a specified source. It accepts an XML file from the European Nucleotide Archive (ENA) as input and extracts FASTQ files from one or multiple experiments, ensuring dataset diversity. However, in this particular use case, a specific project has been chosen to ensure homogeneity of the data (PRJEB44548). 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lTVYho1DjXxlDX304Kd6xIDXjlq4s_lu?usp=sharing)
-
-2.FASTQ_Dataset_Organizer
+2.FASTQ_Dataset_Organizer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY?usp=sharing)
 
 The Dataset Organizer has been developed as a toolkit mainly for an extension of the script. In the currect project, only the functionality that creates a signle group is utilized. Other methods included in this script could be used in order to categorize and structure collected FASTQ files based on metadata information, handling unevenly distributed data, such as sequences with varying lengths, offering scalability and adaptability.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY?usp=sharing)
-
-3.FASTQ_DataLoader
+3.FASTQ_DataLoader [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aFsMNGM69FfGGLU0lyLsa6G3YTgu0Alj?usp=sharing)
 
 Responsible for preprocessing, the Data Loader formats and prepares the dataset to suit the input requirements of the GAN model, ensuring seamless integration into the training pipeline.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aFsMNGM69FfGGLU0lyLsa6G3YTgu0Alj?usp=sharing)
-
-4.PHRED_GAN
+4.PHRED_GAN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1b99S9syvNVy8yta9YlL3uZ30KrEGQ_Qz?usp=sharing)
 
 The GAN architecture is specifically designed to generate synthetic quality scores, mirroring the characteristics of PHRED scores of authentic FASTQ files.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1b99S9syvNVy8yta9YlL3uZ30KrEGQ_Qz?usp=sharing)
-
-5.VARIANT_READS_GENERATOR
+5.VARIANT_READS_GENERATOR [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oNpu5hwZYPo99jEqk7zA14ArO3oGrZH4?usp=sharing)
 
 The Variant Reads Generator receives a FASTA file as input and 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oNpu5hwZYPo99jEqk7zA14ArO3oGrZH4?usp=sharing)
-
-6.FASTQ_GENERATOR
+6.FASTQ_GENERATOR [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eGnf7BIcFGPgvJnj0VGa0xpJ7j2RkFay?usp=sharing)
 
 The Variant Reads Generator receives a FASTA file as input, which serves as the reference genome sequence for generating the synthetic reads, and generates reads of specific length. In addition to the FASTA file, the script also takes a CSV file containing variant information, such as SNPs, and applies them to the respective reads according to each position and Variant Allele Frequency (VAF).
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eGnf7BIcFGPgvJnj0VGa0xpJ7j2RkFay?usp=sharing)
 
 **Results**
 
