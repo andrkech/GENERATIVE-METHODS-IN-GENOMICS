@@ -27,7 +27,7 @@ The Data Miner module gathers FASTQ files from a specified source. It accepts an
 
 The Dataset Organizer has been developed as a toolkit mainly for an extension of the script. In the currect project, only the functionality that creates a signle group is utilized. Other methods included in this script could be used in order to categorize and structure collected FASTQ files based on metadata information, handling unevenly distributed data, such as sequences with varying lengths, offering scalability and adaptability.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73])(https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY?usp=sharing)
 
 3.FASTQ_DataLoader
 
@@ -39,7 +39,7 @@ Responsible for preprocessing, the Data Loader formats and prepares the dataset 
 
 The GAN architecture is specifically designed to generate synthetic quality scores, mirroring the characteristics of PHRED scores of authentic FASTQ files.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73])(https://colab.research.google.com/drive/1b99S9syvNVy8yta9YlL3uZ30KrEGQ_Qz?usp=sharing)
 
 5.VARIANT_READS_GENERATOR
 
@@ -55,19 +55,11 @@ Information about the resulting FASTQ file, in comparison with real ones, is dem
 
 Generated FASTQ file:
 
-![image](https://github.com/user-attachments/assets/2cc9c5b7-89dc-48b3-8a58-7e6ceaf498a1)
-![image](https://github.com/user-attachments/assets/399e93a1-c7a0-48fc-84ba-2a1591de0580)
-![image](https://github.com/user-attachments/assets/7f012dae-8688-4994-b568-5ab0d71acc15)
+![image](https://github.com/user-attachments/assets/0616bb50-11b7-4742-b8e3-e2d0ca9a5204)
 
 Real FASTQ files:
 
-![image](https://github.com/user-attachments/assets/b89113d8-c6c5-42d0-9dcc-45c4ba114fa2)
-![image](https://github.com/user-attachments/assets/15a6299f-dc4d-4e81-8405-7925202ac36a)
-![image](https://github.com/user-attachments/assets/fc9d5dba-5db5-4158-9448-8015991b2ee4)
-
-![image](https://github.com/user-attachments/assets/cb9d600a-7e0d-404e-b2aa-a438a492e211)
-![image](https://github.com/user-attachments/assets/6346ae07-0a48-4c3e-a635-45689d6b9453)
-![image](https://github.com/user-attachments/assets/b5c329ec-2be6-46dc-8087-0ef8ef546d10)
+![image](https://github.com/user-attachments/assets/df8b5406-fc51-4f5b-8135-a196be45124c)
 
 Observations:
 
