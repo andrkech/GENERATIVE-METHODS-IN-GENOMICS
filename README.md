@@ -8,6 +8,10 @@ Although encountering common GAN training challenges, the model manages to captu
 
 This dissertation aims to serve as a stepping stone for further exploration and wider adoption of deep generative models in bioinformatics, in order to address the ongoing issue of data limitations.
 
+**Data**
+
+All the data used in this project are stored and openly accessible in a [Google Drive Folder](https://drive.google.com/drive/folders/1wdrFisMPfNAQ7OOzK21jv6e6ItlYqWz0?usp=drive_link), along with the resulting files.
+
 **Framework**
 
 The overall framework of the complete algorithm is illustrated below:
