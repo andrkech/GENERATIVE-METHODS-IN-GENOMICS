@@ -27,7 +27,7 @@ The Data Miner module gathers FASTQ files from a specified source. It accepts an
 
 The Dataset Organizer has been developed as a toolkit mainly for an extension of the script. In the currect project, only the functionality that creates a signle group is utilized. Other methods included in this script could be used in order to categorize and structure collected FASTQ files based on metadata information, handling unevenly distributed data, such as sequences with varying lengths, offering scalability and adaptability.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73])(https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY?usp=sharing)
 
 3.FASTQ_DataLoader
 
@@ -39,7 +39,7 @@ Responsible for preprocessing, the Data Loader formats and prepares the dataset 
 
 The GAN architecture is specifically designed to generate synthetic quality scores, mirroring the characteristics of PHRED scores of authentic FASTQ files.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73])(https://colab.research.google.com/drive/1b99S9syvNVy8yta9YlL3uZ30KrEGQ_Qz?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1b99S9syvNVy8yta9YlL3uZ30KrEGQ_Qz?usp=sharing)
 
 5.VARIANT_READS_GENERATOR
 
