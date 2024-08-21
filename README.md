@@ -19,9 +19,9 @@ Following is an overview of the scripts. Note that whle access has been provided
 
 1.FASTQ_Data_Miner
 
-The Data Miner module gathers FASTQ files from a specified source. It accepts an XML file from the European Nucleotide Archive (ENA) as input and extracts FASTQ files from one or multiple experiments, ensuring dataset diversity. However, in this particular use case, a specific project has been chosen to ensure homogeneity of the data. 
+The Data Miner module gathers FASTQ files from a specified source. It accepts an XML file from the European Nucleotide Archive (ENA) as input and extracts FASTQ files from one or multiple experiments, ensuring dataset diversity. However, in this particular use case, a specific project has been chosen to ensure homogeneity of the data (PRJEB44548). 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lTVYho1DjXxlDX304Kd6xIDXjlq4s_lu)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lTVYho1DjXxlDX304Kd6xIDXjlq4s_lu?usp=sharing)
 
 2.FASTQ_Dataset_Organizer
 
@@ -33,7 +33,7 @@ The Dataset Organizer has been developed as a toolkit mainly for an extension of
 
 Responsible for preprocessing, the Data Loader formats and prepares the dataset to suit the input requirements of the GAN model, ensuring seamless integration into the training pipeline.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aFsMNGM69FfGGLU0lyLsa6G3YTgu0Alj)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aFsMNGM69FfGGLU0lyLsa6G3YTgu0Alj?usp=sharing)
 
 4.PHRED_GAN
 
@@ -43,11 +43,15 @@ The GAN architecture is specifically designed to generate synthetic quality scor
 
 5.VARIANT_READS_GENERATOR
 
-The Variant Reads Generator component enriches the synthetic data generation process by allowing users to define genetic variations such as SNPs, insertions, and deletions.
+The Variant Reads Generator receives a FASTA file as input and 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OI6jSo-3v7y64IhycxfoN9LSK3XQI0gY#scrollTo=MLiiBeYtyj73)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oNpu5hwZYPo99jEqk7zA14ArO3oGrZH4?usp=sharing)
 
-By integrating these modules, this thesis aims to contribute to advancing generative methods in genomics via deep learning implementation, offering a novel framework for generating synthetic genomic data crucial for various bioinformatics and genomics applications.
+6.FASTQ_GENERATOR
+
+The Variant Reads Generator receives a FASTA file as input, which serves as the reference genome sequence for generating the synthetic reads, and generates reads of specific length. In addition to the FASTA file, the script also takes a CSV file containing variant information, such as SNPs, and applies them to the respective reads according to each position and Variant Allele Frequency (VAF).
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eGnf7BIcFGPgvJnj0VGa0xpJ7j2RkFay?usp=sharing)
 
 **Results**
 
